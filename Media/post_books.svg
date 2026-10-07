@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="shelfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F0"/>
+      <stop offset="100%" stop-color="#ECE3D6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#shelfBg)"/>
+
+  <!-- Solid Oak Bookshelf Ledge -->
+  <rect x="150" y="580" width="900" height="30" fill="#24211E"/>
+  <rect x="150" y="610" width="900" height="15" fill="#3D3833"/>
+
+  <!-- Row of Curated Books with Typographic Spines -->
+  <!-- Book 1 (Joan Didion) -->
+  <g transform="translate(240, 240)">
+    <rect width="60" height="340" rx="3" fill="#C45B32"/>
+    <text x="35" y="170" font-family="'Instrument Serif', Georgia, serif" font-size="20" fill="#FAF7F2" transform="rotate(90 35 170)" text-anchor="middle">SLOUCHING TOWARDS BETHLEHEM</text>
+  </g>
+  <!-- Book 2 (Phaidon Architecture) -->
+  <g transform="translate(310, 210)">
+    <rect width="75" height="370" rx="3" fill="#181615"/>
+    <text x="42" y="185" font-family="'JetBrains Mono', monospace" font-size="16" fill="#F4EFEB" transform="rotate(90 42 185)" text-anchor="middle">MINIMALIST ARCHITECTURE</text>
+  </g>
+  <!-- Book 3 (Linen Paper notebook) -->
+  <g transform="translate(395, 270)">
+    <rect width="45" height="310" rx="3" fill="#DFD7CB" stroke="#C5BCAE" stroke-width="1"/>
+    <text x="25" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#4B4741" transform="rotate(90 25 155)" text-anchor="middle">THE ANATOMY OF TASTE</text>
+  </g>
+  <!-- Book 4 (Deep Olive Art monograph) -->
+  <g transform="translate(450, 190)">
+    <rect width="85" height="390" rx="3" fill="#2B4235"/>
+    <text x="48" y="195" font-family="'Instrument Serif', Georgia, serif" font-size="22" fill="#E8F1EB" transform="rotate(90 48 195)" text-anchor="middle">SCULPTING TIME — TARKOVSKY</text>
+  </g>
+  <!-- Leaning Books -->
+  <g transform="translate(545, 230) rotate(14)">
+    <rect width="55" height="350" rx="3" fill="#C08A3E"/>
+    <text x="30" y="175" font-family="'JetBrains Mono', monospace" font-size="14" fill="#181615" transform="rotate(90 30 175)" text-anchor="middle">WABI-SABI FOR ARTISTS</text>
+  </g>
+  <g transform="translate(605, 245) rotate(14)">
+    <rect width="50" height="335" rx="3" fill="#697779"/>
+    <text x="28" y="167" font-family="'Instrument Serif', Georgia, serif" font-size="18" fill="#FAF7F2" transform="rotate(90 28 167)" text-anchor="middle">IN PRAISE OF SHADOWS</text>
+  </g>
+
+  <!-- Brass Bookend -->
+  <path d="M780 580 L860 580 L860 420 L840 420 L840 560 L780 560 Z" fill="#C08A3E"/>
+
+  <text x="80" y="730" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8B8378" letter-spacing="3">FIG 06 // THE CURATED SHELF</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE6"/>
+      <stop offset="50%" stop-color="#EADBCC"/>
+      <stop offset="100%" stop-color="#D6C4B0"/>
+    </linearGradient>
+    <radialGradient id="sunLight" cx="30%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#FFFDF9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#D6C4B0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#pGrad)"/>
+  <rect width="800" height="1000" fill="url(#sunLight)"/>
+  
+  <!-- Architectural window frame shadow -->
+  <path d="M0 0 L400 0 L250 1000 L0 1000 Z" fill="#24211E" opacity="0.04"/>
+  <path d="M420 0 L580 0 L420 1000 L260 1000 Z" fill="#24211E" opacity="0.03"/>
+
+  <!-- Minimalist Studio Interior Behind -->
+  <path d="M500 450 L750 450 L750 850 L500 850 Z" fill="#E4D7C5" opacity="0.6"/>
+  <line x1="500" y1="450" x2="500" y2="850" stroke="#CDC0AF" stroke-width="2"/>
+  
+  <!-- Cyndy Portrait Abstract Silhouette -->
+  <!-- Shoulders and Linen Coat -->
+  <path d="M180 1000 Q200 680 320 620 Q400 600 480 620 Q600 680 620 1000 Z" fill="#2B4235"/>
+  <path d="M360 620 L380 780 L400 820 L420 780 L440 620 Z" fill="#FAF7F2"/>
+  <path d="M380 780 L400 1000 L420 780 Z" fill="#C45B32" opacity="0.3"/>
+  
+  <!-- Neck and Jawline -->
+  <path d="M370 480 L370 630 Q400 650 430 630 L430 480 Z" fill="#E5CEB9"/>
+  <!-- Head & Chin -->
+  <ellipse cx="400" cy="420" rx="90" ry="110" fill="#EACFB8"/>
+  
+  <!-- Chic Sculpted Hair -->
+  <path d="M300 410 C290 280 360 220 440 220 C520 220 520 300 500 420 C490 350 460 270 400 270 C340 270 310 350 300 410 Z" fill="#181615"/>
+  <path d="M305 380 Q320 480 340 520 Q320 540 290 460 Z" fill="#181615"/>
+  
+  <!-- Terracotta Earring -->
+  <circle cx="330" cy="460" r="14" fill="#C45B32"/>
+  <circle cx="330" cy="460" r="7" fill="#FAF7F2"/>
+
+  <!-- Subtle editorial caption in frame -->
+  <text x="60" y="930" font-family="'Instrument Serif', Georgia, serif" font-size="28" fill="#1A1918" opacity="0.75" letter-spacing="1">Cyndy Vance — Copenhagen Studio</text>
+  <text x="60" y="960" font-family="'JetBrains Mono', monospace" font-size="12" fill="#6B665F" letter-spacing="2">ESSAYIST &amp; CREATIVE DIRECTOR</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="paperBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF7EE"/>
+      <stop offset="100%" stop-color="#EFE7D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#paperBg)"/>
+  
+  <!-- Open Notebook Spread -->
+  <rect x="250" y="160" width="700" height="480" rx="8" fill="#FFFDF8" stroke="#DFD6C7" stroke-width="2"/>
+  <!-- Center spine crease shadow -->
+  <line x1="600" y1="160" x2="600" y2="640" stroke="#DDD3C3" stroke-width="3"/>
+  <rect x="585" y="160" width="30" height="480" fill="#24211E" opacity="0.04"/>
+
+  <!-- Feint ruled lines on right page -->
+  <g stroke="#E8E0D2" stroke-width="1">
+    <line x1="640" y1="230" x2="910" y2="230"/>
+    <line x1="640" y1="270" x2="910" y2="270"/>
+    <line x1="640" y1="310" x2="910" y2="310"/>
+    <line x1="640" y1="350" x2="910" y2="350"/>
+    <line x1="640" y1="390" x2="910" y2="390"/>
+    <line x1="640" y1="430" x2="910" y2="430"/>
+    <line x1="640" y1="470" x2="910" y2="470"/>
+    <line x1="640" y1="510" x2="910" y2="510"/>
+    <line x1="640" y1="550" x2="910" y2="550"/>
+  </g>
+
+  <!-- Left page handwritten cursive abstract curve -->
+  <path d="M300 250 Q380 220 440 260 T520 250" fill="none" stroke="#2B4235" stroke-width="1.8" opacity="0.7"/>
+  <path d="M300 290 Q360 270 420 300 T530 290" fill="none" stroke="#2B4235" stroke-width="1.8" opacity="0.7"/>
+  <path d="M300 330 Q400 310 460 340 T540 330" fill="none" stroke="#2B4235" stroke-width="1.8" opacity="0.7"/>
+
+  <!-- Brass / Terracotta Fountain Pen Resting Across -->
+  <g transform="rotate(-30 650 350)">
+    <!-- Pen Barrel -->
+    <rect x="520" y="340" width="260" height="24" rx="4" fill="#24211E"/>
+    <!-- Gold / Brass Accent rings -->
+    <rect x="580" y="339" width="8" height="26" fill="#C08A3E"/>
+    <rect x="680" y="339" width="6" height="26" fill="#C08A3E"/>
+    <!-- Pen Grip Section -->
+    <polygon points="520,342 460,347 460,357 520,362" fill="#3D3833"/>
+    <!-- Gold Nib -->
+    <polygon points="460,347 415,352 460,357" fill="#C08A3E"/>
+    <line x1="460" y1="352" x2="425" y2="352" stroke="#1A1918" stroke-width="1"/>
+    <circle cx="438" cy="352" r="2" fill="#1A1918"/>
+  </g>
+
+  <!-- Ink splash / drop -->
+  <circle cx="480" cy="460" r="5" fill="#C45B32" opacity="0.8"/>
+  
+  <text x="80" y="730" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8B8378" letter-spacing="3">FIG 02 // TACTILE FRICTION &amp; INK</text>
+</svg>

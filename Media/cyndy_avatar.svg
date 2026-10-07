@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE6D8"/>
+      <stop offset="100%" stop-color="#DCCDBB"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bgGrad)"/>
+  <!-- Elegant minimalist silhouette of Cyndy -->
+  <path d="M100 45 C80 45 70 60 70 85 C70 105 82 118 95 120 C65 126 45 150 40 185 C58 195 78 200 100 200 C122 200 142 195 160 185 C155 150 135 126 105 120 C118 118 130 105 130 85 C130 60 120 45 100 45 Z" fill="#24211E"/>
+  <!-- Hair tuck / earring detail in terracotta -->
+  <circle cx="78" cy="92" r="4.5" fill="#C45B32"/>
+  <path d="M72 75 Q100 50 128 75 Q120 40 98 42 Q76 45 72 75 Z" fill="#181615"/>
+</svg>

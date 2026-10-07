@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="wineBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#E8DFD3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#wineBg)"/>
+  
+  <!-- Wooden Table Surface -->
+  <rect x="0" y="520" width="1200" height="280" fill="#DDD0BF"/>
+  <line x1="0" y1="520" x2="1200" y2="520" stroke="#C5B5A0" stroke-width="2"/>
+  <line x1="0" y1="620" x2="1200" y2="620" stroke="#D3C3AD" stroke-width="1.5"/>
+
+  <!-- Linen Runner draped over edge -->
+  <polygon points="260,520 540,520 520,800 280,800" fill="#FAF6EE"/>
+  <line x1="280" y1="780" x2="520" y2="780" stroke="#E3DACB" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Natural Wine Bottle -->
+  <g transform="translate(680, 240)">
+    <rect x="40" y="80" width="110" height="220" rx="14" fill="#2B4235"/>
+    <path d="M40 80 Q95 20 95 0 L105 0 Q105 20 150 80 Z" fill="#2B4235"/>
+    <rect x="90" y="-30" width="20" height="35" fill="#C45B32"/>
+    <!-- Minimalist Bottle Label -->
+    <rect x="52" y="110" width="86" height="120" rx="3" fill="#FAF7F2" stroke="#E5DECf" stroke-width="1"/>
+    <text x="65" y="145" font-family="'Instrument Serif', Georgia, serif" font-size="20" fill="#181615" font-style="italic">Beaujolais</text>
+    <text x="65" y="165" font-family="'JetBrains Mono', monospace" font-size="9" fill="#C45B32">NATURAL 2024</text>
+    <circle cx="95" cy="195" r="12" fill="#EAE0D0"/>
+  </g>
+
+  <!-- Wine Glass with Gamay Ruby tint -->
+  <g transform="translate(480, 340)">
+    <!-- Bowl -->
+    <ellipse cx="60" cy="80" rx="42" ry="52" fill="#FFFFFF" fill-opacity="0.2" stroke="#DDD1C1" stroke-width="2"/>
+    <!-- Wine inside -->
+    <path d="M22 80 C22 120 98 120 98 80 Z" fill="#8B2635" opacity="0.85"/>
+    <!-- Stem -->
+    <line x1="60" y1="132" x2="60" y2="200" stroke="#CDC0AF" stroke-width="3"/>
+    <!-- Base -->
+    <ellipse cx="60" cy="200" rx="36" ry="6" fill="#D3C5B3"/>
+  </g>
+
+  <!-- Ceramic plate with radishes & sea salt -->
+  <ellipse cx="360" cy="620" rx="100" ry="42" fill="#EAE2D5" stroke="#C4B8A5" stroke-width="2"/>
+  <ellipse cx="360" cy="620" rx="80" ry="32" fill="#F4ECE0"/>
+  <circle cx="340" cy="615" r="14" fill="#C43B4E"/>
+  <path d="M340 615 Q310 600 290 595" stroke="#486D51" stroke-width="3" fill="none"/>
+  <circle cx="380" cy="625" r="12" fill="#C43B4E"/>
+  <path d="M380 625 Q410 610 430 605" stroke="#486D51" stroke-width="3" fill="none"/>
+
+  <text x="80" y="730" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8B8378" letter-spacing="3">FIG 05 // TACTILE GASTRONOMY</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="techDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1C1A"/>
+      <stop offset="100%" stop-color="#141312"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#techDark)"/>
+  
+  <!-- Subtle technical grid -->
+  <g stroke="#2C2925" stroke-width="1">
+    <line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="400" y1="0" x2="400" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="800" y1="0" x2="800" y2="800"/>
+    <line x1="1000" y1="0" x2="1000" y2="800"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+
+  <!-- Editorial Typography composition in center -->
+  <rect x="280" y="180" width="640" height="440" fill="#24221F" stroke="#3D3833" stroke-width="1.5" rx="6"/>
+  
+  <text x="330" y="270" font-family="'Instrument Serif', Georgia, serif" font-size="64" fill="#F4EFEB" font-style="italic">Bespoke Craft</text>
+  <text x="330" y="340" font-family="'Instrument Serif', Georgia, serif" font-size="48" fill="#DF764D">vs. Synthetic Drift</text>
+
+  <!-- Code snippet overlay -->
+  <g font-family="'JetBrains Mono', monospace" font-size="14" fill="#A8A196">
+    <text x="330" y="410"><tspan fill="#5B886E">const</tspan> intention = <tspan fill="#DFAB5E">new</tspan> Craftsmanship({</text>
+    <text x="360" y="445">typography: <tspan fill="#F4EFEB">"proportional"</tspan>,</text>
+    <text x="360" y="480">frameworkBloat: <tspan fill="#DF764D">false</tspan>,</text>
+    <text x="360" y="515">lastingValue: <tspan fill="#5B886E">Infinity</tspan></text>
+    <text x="330" y="550">});</text>
+  </g>
+
+  <!-- Corner markers -->
+  <path d="M260 160 L260 200 M260 160 L300 160" stroke="#DF764D" stroke-width="2" fill="none"/>
+  <path d="M940 160 L940 200 M940 160 L900 160" stroke="#DF764D" stroke-width="2" fill="none"/>
+  <path d="M260 640 L260 600 M260 640 L300 640" stroke="#DF764D" stroke-width="2" fill="none"/>
+  <path d="M940 640 L940 600 M940 640 L900 640" stroke="#DF764D" stroke-width="2" fill="none"/>
+
+  <text x="80" y="730" font-family="'JetBrains Mono', monospace" font-size="14" fill="#706B62" letter-spacing="3">FIG 03 // BEYOND SYNTHETIC SLOP</text>
+</svg>

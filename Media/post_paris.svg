@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="parisSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EBE2D5"/>
+      <stop offset="100%" stop-color="#DAD0C1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#parisSky)"/>
+  
+  <!-- Parisian zinc rooftops silhouette -->
+  <polygon points="100,800 100,450 180,380 320,380 400,470 400,800" fill="#697779"/>
+  <!-- Chimney pots -->
+  <rect x="200" y="320" width="20" height="60" fill="#C45B32"/>
+  <rect x="235" y="310" width="20" height="70" fill="#C45B32"/>
+  <rect x="270" y="325" width="20" height="55" fill="#C45B32"/>
+
+  <!-- Center building facade with wrought iron balcony -->
+  <rect x="440" y="260" width="380" height="540" fill="#EAE2D5" stroke="#C5BBAA" stroke-width="2"/>
+  
+  <!-- French Tall Windows -->
+  <rect x="490" y="320" width="120" height="220" rx="60" fill="#24211E"/>
+  <rect x="670" y="320" width="120" height="220" rx="60" fill="#24211E"/>
+
+  <!-- Ornate wrought iron balcony railing -->
+  <rect x="460" y="470" width="340" height="70" fill="none" stroke="#181615" stroke-width="3"/>
+  <path d="M470 505 C490 480 510 530 530 505 C550 480 570 530 590 505 C610 480 630 530 650 505 C670 480 690 530 710 505 C730 480 750 530 770 505 C790 480 800 505 800 505" fill="none" stroke="#181615" stroke-width="2"/>
+
+  <!-- Street lamp silhouette -->
+  <g transform="translate(880, 280)">
+    <line x1="100" y1="520" x2="100" y2="120" stroke="#1A1918" stroke-width="6"/>
+    <path d="M100 120 C120 70 160 80 180 120" stroke="#1A1918" stroke-width="5" fill="none"/>
+    <polygon points="160,120 200,120 190,170 170,170" fill="#F8E5B9" stroke="#1A1918" stroke-width="3"/>
+    <circle cx="180" cy="145" r="10" fill="#F9D479" opacity="0.8"/>
+  </g>
+
+  <text x="80" y="730" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8B8378" letter-spacing="3">FIG 04 // THE FLÂNEUR'S CHRONICLE</text>
+</svg>

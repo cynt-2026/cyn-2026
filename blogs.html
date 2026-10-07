@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Essays &amp; Dispatches — Cyndy</title>
+  <meta name="description" content="Explore the complete archive of Cyndy's essays on architecture, slow living, culture, and thoughtful software craft.">
+  <link rel="stylesheet" href="Style/main.css">
+</head>
+<body>
+
+  <!-- Top Reading Progress Indicator -->
+  <div id="readingProgressBar"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-area">
+        <a href="index.html" class="brand-logo" id="siteLogo">Cyndy<span class="dot">.</span></a>
+        <span class="brand-subtitle">Editorial Archive</span>
+      </div>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link" id="navHome">Home</a>
+        <a href="blogs.html" class="nav-link active" id="navBlogs">Blogs</a>
+        <a href="about.html" class="nav-link" id="navAbout">About</a>
+        <a href="contact.html" class="nav-link" id="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-btn open-search-btn" id="searchTriggerBtn" title="Search articles (Ctrl+K)" aria-label="Search articles">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+
+        <button class="header-btn theme-toggle-btn" id="themeToggleBtn" title="Toggle Theme" aria-label="Toggle Dark/Light Mode">
+          <!-- Populated by JS -->
+        </button>
+
+        <a href="index.html#newsletterSection" class="cta-newsletter-btn" id="navNewsletterBtn">The Sunday Letter</a>
+
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="blogs.html" class="nav-link active">Blogs</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <div class="divider"></div>
+    <button class="btn-primary open-search-btn" style="width: 100%; justify-content: center;">Search Essays</button>
+  </div>
+
+  <!-- Main Content -->
+  <main class="page-section">
+    <div class="container">
+      <!-- Archive Header -->
+      <div style="max-width: 760px; margin-bottom: 3.5rem;">
+        <span class="mono-label" style="margin-bottom: 0.75rem;">THE COMPLETE ARCHIVE</span>
+        <h1 class="display-1" style="margin-bottom: 1.25rem;">Essays, Notes &amp; Dispatches.</h1>
+        <p style="font-size: 1.15rem; color: var(--text-muted);">
+          Unfiltered musings on quiet spaces, deliberate craftsmanship, slow morning rituals, and cultural observations.
+        </p>
+      </div>
+
+      <!-- Controls & Filter Toolbar -->
+      <div class="contact-info-card" style="margin-bottom: 3rem; padding: 1.5rem 2rem;">
+        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+          <!-- Search input line -->
+          <div style="position: relative; width: 100%;">
+            <input type="text" id="blogSearchInput" class="form-control" placeholder="Search archive by keyword or topic..." style="border-radius: var(--radius-pill); padding-left: 2.75rem;">
+            <svg style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--text-light);" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+
+          <!-- Bottom row: categories & view toggle -->
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+            <div class="filters-wrapper" id="categoryFilters">
+              <!-- Rendered via blog.js -->
+            </div>
+
+            <!-- View switcher -->
+            <div style="display: flex; align-items: center; gap: 0.5rem; border: 1px solid var(--border-light); padding: 3px; border-radius: var(--radius-pill); background: var(--bg-surface);">
+              <button class="filter-btn active" id="viewGridBtn" style="border: none; padding: 0.35rem 0.75rem; font-size: 0.8rem;" title="Grid view">Grid</button>
+              <button class="filter-btn" id="viewListBtn" style="border: none; padding: 0.35rem 0.75rem; font-size: 0.8rem;" title="List view">List</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post Container (Grid or List) -->
+      <div id="blogGrid" class="article-grid">
+        <!-- Rendered dynamically via blog.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-brand">
+          <div class="brand-logo">Cyndy<span class="dot">.</span></div>
+          <p style="max-width: 360px; font-size: 0.95rem;">
+            An independent editorial journal exploring architecture, tactile slow living, and human-crafted software. Written with reverence for the unhurried life.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Index</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home Edition</a></li>
+            <li><a href="blogs.html">All Essays &amp; Archive</a></li>
+            <li><a href="about.html">About Cyndy</a></li>
+            <li><a href="contact.html">Correspondence &amp; Desk</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Topics</h5>
+          <ul class="footer-links">
+            <li><a href="blogs.html">Architecture &amp; Design</a></li>
+            <li><a href="blogs.html">Slow Living &amp; Rituals</a></li>
+            <li><a href="blogs.html">Culture &amp; Gastronomy</a></li>
+            <li><a href="blogs.html">Software &amp; Typographic Craft</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Cyndy Vance. Handcrafted with semantic HTML &amp; vanilla CSS.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" class="open-search-btn">Quick Search (Ctrl+K)</a>
+          <a href="#siteLogo">Back to Top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Article Reader Drawer Modal -->
+  <div class="reader-modal-overlay" id="readerOverlay" aria-modal="true" role="dialog">
+    <div class="reader-drawer">
+      <div class="reader-toolbar">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <button class="header-btn" id="readerCloseBtn" aria-label="Close reader">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+          <span class="mono-label" style="display: inline-block;">READING VIEW</span>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <button class="filter-btn" id="readerFontToggle" style="font-size: 0.8rem; padding: 0.35rem 0.85rem;">Larger Type</button>
+          <button class="header-btn" id="readerShareBtn" title="Copy article link" aria-label="Share article">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="reader-content-body">
+        <div class="card-meta" id="readerMeta" style="margin-bottom: 1.5rem;"></div>
+        <h1 id="readerTitle"></h1>
+        <img id="readerImg" class="reader-featured-img" src="" alt="">
+        <div id="readerProse" class="reader-prose"></div>
+        <div class="divider"></div>
+        <div class="card-author-row" id="readerAuthor" style="margin-top: 2rem;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Search Overlay -->
+  <div class="search-overlay" id="searchOverlay" aria-modal="true" role="dialog">
+    <div class="search-modal">
+      <div class="search-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--text-light)" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="globalSearchInput" class="search-input" placeholder="Search essays, keywords, topics..." autocomplete="off">
+        <span class="search-close-btn" id="searchCloseBtn">ESC</span>
+      </div>
+      <div class="search-results-list" id="searchResults">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="Script/data.js"></script>
+  <script src="Script/blog.js"></script>
+  <script src="Script/app.js"></script>
+</body>
+</html>

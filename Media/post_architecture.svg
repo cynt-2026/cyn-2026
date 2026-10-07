@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F1E7"/>
+      <stop offset="100%" stop-color="#E5DCce"/>
+    </linearGradient>
+    <linearGradient id="sunbeam" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C45B32" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#archBg)"/>
+  
+  <!-- Architectural Column / Archway 1 -->
+  <path d="M150 800 L150 350 A 180 180 0 0 1 510 350 L510 800 Z" fill="#D8CCBD" stroke="#C5B6A4" stroke-width="2"/>
+  <path d="M210 800 L210 380 A 120 120 0 0 1 450 380 L450 800 Z" fill="#24211E" opacity="0.85"/>
+  
+  <!-- Second arch in background -->
+  <path d="M600 800 L600 450 A 140 140 0 0 1 880 450 L880 800 Z" fill="#E2D7C9" stroke="#C5B6A4" stroke-width="2"/>
+  <path d="M640 800 L640 480 A 100 100 0 0 1 840 480 L840 800 Z" fill="#C45B32" opacity="0.3"/>
+
+  <!-- Light beam angle -->
+  <polygon points="210,0 600,0 800,800 300,800" fill="url(#sunbeam)"/>
+
+  <!-- Minimalist Pedestal & Ceramic Vessel -->
+  <rect x="700" y="580" width="160" height="220" fill="#EBE4D8" stroke="#CDC2B2" stroke-width="2"/>
+  <!-- Vase -->
+  <ellipse cx="780" cy="530" rx="35" ry="50" fill="#2B4235"/>
+  <ellipse cx="780" cy="475" rx="12" ry="6" fill="#1C2D24"/>
+  <!-- Single delicate branch -->
+  <path d="M780 475 Q820 400 850 360" stroke="#7A6852" stroke-width="2.5" fill="none"/>
+  <ellipse cx="850" cy="360" rx="5" ry="3" fill="#C45B32"/>
+  <ellipse cx="820" cy="400" rx="4" ry="2.5" fill="#2B4235"/>
+  
+  <!-- Subtle line art grid -->
+  <line x1="80" y1="80" x2="1120" y2="80" stroke="#CDC2B2" stroke-width="1" stroke-dasharray="6,6"/>
+  <text x="80" y="65" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8B8378" letter-spacing="3">FIG 01 // ARCHITECTURAL VOID &amp; FORM</text>
+</svg>
